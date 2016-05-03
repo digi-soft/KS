@@ -1,0 +1,889 @@
+body {
+  overflow-x: hidden;
+  font-family: SansSerifBldFLF;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.p0 {
+  padding: 0 !important; }
+
+.m0 {
+  margin: 0 !important; }
+
+.bottom20 {
+  margin-bottom: 20px; }
+
+.zero, .row {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.boslukDiv {
+  height: 40px; }
+
+.aktif {
+  color: #52b7cc !important; }
+
+.displayBlock {
+  display: block !important; }
+
+a {
+  text-decoration: none !important;
+  color: #101010; }
+
+li {
+  list-style-type: none; }
+
+.gm-style-cc {
+  display: none; }
+
+.pr0 {
+  padding-right: 0; }
+
+.pb5 {
+  padding-bottom: 5px; }
+
+.navBar {
+  position: relative;
+  height: 73px;
+  z-index: 999999; }
+  .navBar .nav {
+    background-color: white !important;
+    position: fixed;
+    width: 100%;
+    height: 73px;
+    z-index: 999999; }
+    .navBar .nav .logo {
+      padding: 18px !important; }
+      .navBar .nav .logo a {
+        color: #212121;
+        text-decoration: none; }
+        .navBar .nav .logo a h1 {
+          font-size: 33px; }
+          @media only screen and (max-width: 1305px) {
+            .navBar .nav .logo a h1 {
+              font-size: 30px; } }
+          @media only screen and (max-width: 1186px) {
+            .navBar .nav .logo a h1 {
+              font-size: 29px; } }
+          @media only screen and (max-width: 1160px) {
+            .navBar .nav .logo a h1 {
+              font-size: 28px; } }
+          @media only screen and (max-width: 1125px) {
+            .navBar .nav .logo a h1 {
+              font-size: 27px; } }
+          @media only screen and (max-width: 1108px) {
+            .navBar .nav .logo a h1 {
+              font-size: 26px; } }
+          @media only screen and (max-width: 1060px) {
+            .navBar .nav .logo a h1 {
+              font-size: 24px; } }
+          @media only screen and (max-width: 995px) {
+            .navBar .nav .logo a h1 {
+              font-size: 23px; } }
+          @media only screen and (max-width: 990px) {
+            .navBar .nav .logo a h1 {
+              font-size: 35px; } }
+    .navBar .nav .menu ul li {
+      float: left;
+      padding: 13px;
+      margin-top: -9px;
+      cursor: pointer;
+      height: 85px; }
+      .navBar .nav .menu ul li a h1 {
+        font-size: 25px; }
+        @media only screen and (max-width: 1310px) {
+          .navBar .nav .menu ul li a h1 {
+            font-size: 23px; } }
+        @media only screen and (max-width: 1226px) {
+          .navBar .nav .menu ul li a h1 {
+            font-size: 22px; } }
+        @media only screen and (max-width: 1186px) {
+          .navBar .nav .menu ul li a h1 {
+            font-size: 21px; } }
+        @media only screen and (max-width: 1160px) {
+          .navBar .nav .menu ul li a h1 {
+            font-size: 20px; } }
+        @media only screen and (max-width: 1108px) {
+          .navBar .nav .menu ul li a h1 {
+            font-size: 19px; } }
+        @media only screen and (max-width: 1066px) {
+          .navBar .nav .menu ul li a h1 {
+            font-size: 18px; } }
+      .navBar .nav .menu ul li:hover a {
+        color: #52b7cc; }
+      @media only screen and (max-width: 1040px) {
+        .navBar .nav .menu ul li {
+          padding: 11px; } }
+      @media only screen and (max-width: 992px) {
+        .navBar .nav .menu ul li {
+          padding: 10px; } }
+    .navBar .nav .navigasyon {
+      height: 75px; }
+      .navBar .nav .navigasyon ul {
+        margin-top: 22px; }
+        .navBar .nav .navigasyon ul li {
+          float: left; }
+          .navBar .nav .navigasyon ul li a {
+            font-size: 20px;
+            padding: 15px 15px 26px 15px; }
+            .navBar .nav .navigasyon ul li a:hover {
+              color: #52b7cc !important;
+              -webkit-box-shadow: inset 0px -4px 0px 0px rgba(243, 96, 98, 0.75);
+              -moz-box-shadow: inset 0px -4px 0px 0px rgba(243, 96, 98, 0.75);
+              box-shadow: inset 0px -4px 0px 0px rgba(243, 96, 98, 0.75); }
+            @media only screen and (max-width: 1305px) {
+              .navBar .nav .navigasyon ul li a {
+                padding: 12px; } }
+            @media only screen and (max-width: 1177px) {
+              .navBar .nav .navigasyon ul li a {
+                padding: 11px;
+                font-size: 19px; } }
+            @media only screen and (max-width: 1150px) {
+              .navBar .nav .navigasyon ul li a {
+                font-size: 18px; } }
+            @media only screen and (max-width: 1108px) {
+              .navBar .nav .navigasyon ul li a {
+                font-size: 17px;
+                padding: 10px; } }
+            @media only screen and (max-width: 1024px) {
+              .navBar .nav .navigasyon ul li a {
+                padding: 9px; } }
+            @media only screen and (max-width: 1020px) {
+              .navBar .nav .navigasyon ul li a {
+                padding: 8px; } }
+            @media only screen and (max-width: 992px) {
+              .navBar .nav .navigasyon ul li a {
+                font-size: 16px; } }
+    .navBar .nav .sideNav {
+      padding: 15px; }
+      .navBar .nav .sideNav .logoSide {
+        width: 50%;
+        margin: 0 25%; }
+        .navBar .nav .sideNav .logoSide a {
+          color: #212121;
+          text-decoration: none; }
+          .navBar .nav .sideNav .logoSide a h1 {
+            font-size: 33px;
+            text-align: center; }
+            @media only screen and (max-width: 430px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 32px; } }
+            @media only screen and (max-width: 400px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 31px; } }
+            @media only screen and (max-width: 380px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 29px; } }
+            @media only screen and (max-width: 365px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 28px; } }
+            @media only screen and (max-width: 355px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 27px; } }
+            @media only screen and (max-width: 345px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 26px; } }
+            @media only screen and (max-width: 335px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 25px; } }
+            @media only screen and (max-width: 325px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 24px; } }
+            @media only screen and (max-width: 315px) {
+              .navBar .nav .sideNav .logoSide a h1 {
+                font-size: 22px; } }
+      .navBar .nav .sideNav .bars {
+        position: absolute;
+        cursor: pointer; }
+        .navBar .nav .sideNav .bars i {
+          font-size: 25px;
+          margin: 7px;
+          z-index: 99999999999; }
+          @media only screen and (max-width: 365px) {
+            .navBar .nav .sideNav .bars i {
+              margin: 6px; } }
+          @media only screen and (max-width: 355px) {
+            .navBar .nav .sideNav .bars i {
+              margin: 5px; } }
+          @media only screen and (max-width: 345px) {
+            .navBar .nav .sideNav .bars i {
+              margin: 4px; } }
+          @media only screen and (max-width: 335px) {
+            .navBar .nav .sideNav .bars i {
+              margin: 3px; } }
+          @media only screen and (max-width: 325px) {
+            .navBar .nav .sideNav .bars i {
+              margin: 2px; } }
+      @media only screen and (max-width: 430px) {
+        .navBar .nav .sideNav {
+          padding: 15px; } }
+      @media only screen and (max-width: 400px) {
+        .navBar .nav .sideNav {
+          padding: 16px; } }
+      @media only screen and (max-width: 380px) {
+        .navBar .nav .sideNav {
+          padding: 17px; } }
+      @media only screen and (max-width: 365px) {
+        .navBar .nav .sideNav {
+          padding: 18px; } }
+      @media only screen and (max-width: 355px) {
+        .navBar .nav .sideNav {
+          padding: 19px; } }
+      @media only screen and (max-width: 345px) {
+        .navBar .nav .sideNav {
+          padding: 20px; } }
+      @media only screen and (max-width: 335px) {
+        .navBar .nav .sideNav {
+          padding: 21px; } }
+      @media only screen and (max-width: 325px) {
+        .navBar .nav .sideNav {
+          padding: 22px; } }
+      @media only screen and (max-width: 315px) {
+        .navBar .nav .sideNav {
+          padding: 23px; } }
+
+.boxWrap {
+  position: relative; }
+  .boxWrap .box {
+    position: fixed;
+    width: 100%;
+    z-index: 1; }
+    .boxWrap .box .playstation, .boxWrap .box .xbox, .boxWrap .box .nintendo, .boxWrap .box .bilgisayar, .boxWrap .box .promosyonlar {
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      background: rgba(240, 240, 240, 0.95);
+      display: none; }
+      .boxWrap .box .playstation:hover, .boxWrap .box .xbox:hover, .boxWrap .box .nintendo:hover, .boxWrap .box .bilgisayar:hover, .boxWrap .box .promosyonlar:hover {
+        display: block;
+        background: rgba(240, 240, 240, 0.95); }
+      .boxWrap .box .playstation .sideKategori, .boxWrap .box .xbox .sideKategori, .boxWrap .box .nintendo .sideKategori, .boxWrap .box .bilgisayar .sideKategori, .boxWrap .box .promosyonlar .sideKategori {
+        cursor: pointer; }
+        .boxWrap .box .playstation .sideKategori .baslik h1, .boxWrap .box .xbox .sideKategori .baslik h1, .boxWrap .box .nintendo .sideKategori .baslik h1, .boxWrap .box .bilgisayar .sideKategori .baslik h1, .boxWrap .box .promosyonlar .sideKategori .baslik h1 {
+          text-align: center; }
+          .boxWrap .box .playstation .sideKategori .baslik h1 a, .boxWrap .box .xbox .sideKategori .baslik h1 a, .boxWrap .box .nintendo .sideKategori .baslik h1 a, .boxWrap .box .bilgisayar .sideKategori .baslik h1 a, .boxWrap .box .promosyonlar .sideKategori .baslik h1 a {
+            color: black; }
+        .boxWrap .box .playstation .sideKategori .resim a img, .boxWrap .box .xbox .sideKategori .resim a img, .boxWrap .box .nintendo .sideKategori .resim a img, .boxWrap .box .bilgisayar .sideKategori .resim a img, .boxWrap .box .promosyonlar .sideKategori .resim a img {
+          -moz-filter: drop-shadow(2px 2px 1px grey);
+          -ms-filter: drop-shadow(2px 2px 1px grey);
+          -o-filter: drop-shadow(2px 2px 1px grey);
+          -webkit-filter: drop-shadow(2px 2px 1px grey);
+          filter: drop-shadow(2px 2px 1px grey);
+          display: table;
+          margin: 0 auto; }
+        .boxWrap .box .playstation .sideKategori:hover .resim a img, .boxWrap .box .xbox .sideKategori:hover .resim a img, .boxWrap .box .nintendo .sideKategori:hover .resim a img, .boxWrap .box .bilgisayar .sideKategori:hover .resim a img, .boxWrap .box .promosyonlar .sideKategori:hover .resim a img {
+          -moz-filter: drop-shadow(4px 4px 1px grey);
+          -ms-filter: drop-shadow(4px 4px 1px grey);
+          -o-filter: drop-shadow(4px 4px 1px grey);
+          -webkit-filter: drop-shadow(4px 4px 1px grey);
+          filter: drop-shadow(4px 4px 1px grey); }
+        .boxWrap .box .playstation .sideKategori:hover > .baslik h1 a, .boxWrap .box .xbox .sideKategori:hover > .baslik h1 a, .boxWrap .box .nintendo .sideKategori:hover > .baslik h1 a, .boxWrap .box .bilgisayar .sideKategori:hover > .baslik h1 a, .boxWrap .box .promosyonlar .sideKategori:hover > .baslik h1 a {
+          text-shadow: 2px 2px darkgrey; }
+    .boxWrap .box .xbox:hover {
+      display: block; }
+    .boxWrap .box .nintendo:hover {
+      display: block; }
+    .boxWrap .box .bilgisayar:hover {
+      display: block; }
+    @media only screen and (min-width: 970px) and (max-width: 1170px) {
+      .boxWrap .box .bilgisayar .baslik h1 a {
+        font-size: 25px !important; } }
+    .boxWrap .box .promosyonlar:hover {
+      display: block; }
+
+.sideNavMenu {
+  display: none;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin: 0 0 10px 0 !important; }
+  .sideNavMenu .sideMenu {
+    display: none;
+    position: fixed;
+    background-color: #f2f2f2;
+    width: 100%;
+    z-index: 99999999; }
+    .sideNavMenu .sideMenu ul li a img {
+      width: 33px;
+      float: left;
+      margin: 8px; }
+    .sideNavMenu .sideMenu ul li a h1 {
+      font-size: 25px;
+      padding: 15px !important; }
+
+.slider-wrapper {
+  margin: 0 !important; }
+
+.marketWrap {
+  width: 90%;
+  margin: 0 5% !important; }
+  .marketWrap .marketNav .anaBaslik a h1 {
+    color: #212121 !important;
+    font-family: SansSerifBldFLF;
+    text-transform: uppercase;
+    font-size: 36px; }
+  .marketWrap .marketNav .marketKategori ul {
+    padding: 22px; }
+    .marketWrap .marketNav .marketKategori ul li {
+      float: left;
+      margin-left: 10px; }
+      .marketWrap .marketNav .marketKategori ul li a {
+        color: #212121;
+        font-family: SansSerifBldFLF;
+        font-size: 24px;
+        word-spacing: -3px; }
+        .marketWrap .marketNav .marketKategori ul li a:hover {
+          color: #52b7cc; }
+        @media only screen and (max-width: 1128px) {
+          .marketWrap .marketNav .marketKategori ul li a {
+            font-size: 23px; } }
+        @media only screen and (max-width: 1095px) {
+          .marketWrap .marketNav .marketKategori ul li a {
+            font-size: 22px; } }
+        @media only screen and (max-width: 1060px) {
+          .marketWrap .marketNav .marketKategori ul li a {
+            font-size: 21px; } }
+        @media only screen and (max-width: 1045px) {
+          .marketWrap .marketNav .marketKategori ul li a {
+            font-size: 20px; } }
+      .marketWrap .marketNav .marketKategori ul li:hover {
+        transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -webkit-transition: all .2s ease-in;
+        -ms-transition: all .2s ease-in;
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        -moz-transform: scale(1.01);
+        transform: scale(1.01);
+        -webkit-box-shadow: inset 0px -4px 0px 0px rgba(79, 181, 205, 0.75);
+        -moz-box-shadow: inset 0px -4px 0px 0px rgba(79, 181, 205, 0.75);
+        box-shadow: inset 0px -4px 0px 0px rgba(79, 181, 205, 0.75); }
+    @media only screen and (max-width: 990px) {
+      .marketWrap .marketNav .marketKategori ul {
+        padding: 0; } }
+  @media only screen and (max-width: 990px) {
+    .marketWrap .marketNav .marketKategori {
+      margin-bottom: 10px !important; } }
+  .marketWrap .marketNav .butonlar .devam {
+    padding: 22px; }
+    .marketWrap .marketNav .butonlar .devam a .button {
+      width: 80%;
+      color: #444;
+      font-size: 18px;
+      padding: 5px;
+      text-align: center;
+      background: #d1d1d1;
+      border-radius: 10px;
+      transition: all .5s ease-in-out;
+      cursor: pointer; }
+      .marketWrap .marketNav .butonlar .devam a .button:hover {
+        background: #4fb5cd; }
+      .marketWrap .marketNav .butonlar .devam a .button:active {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        transform: scale(1.05); }
+      @media only screen and (max-width: 960px) {
+        .marketWrap .marketNav .butonlar .devam a .button {
+          width: 100%; } }
+    @media only screen and (max-width: 990px) {
+      .marketWrap .marketNav .butonlar .devam {
+        padding: 0; } }
+    @media only screen and (max-width: 970px) {
+      .marketWrap .marketNav .butonlar .devam {
+        margin-bottom: 20px !important; } }
+  .marketWrap .marketBody .row .col-lg-3 .arkaPlan {
+    position: relative;
+    height: 390px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%; }
+    .marketWrap .marketBody .row .col-lg-3 .arkaPlan .marketUrun img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -webkit-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in; }
+    .marketWrap .marketBody .row .col-lg-3 .arkaPlan .marketUrun .gizliArkaPlan {
+      transition: all .01s linear;
+      top: 100%;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+      overflow: hidden; }
+      .marketWrap .marketBody .row .col-lg-3 .arkaPlan .marketUrun .gizliArkaPlan a {
+        background-color: #52b7cc;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 50px;
+        left: 24%;
+        right: 24%;
+        text-align: center; }
+        .marketWrap .marketBody .row .col-lg-3 .arkaPlan .marketUrun .gizliArkaPlan a i {
+          font-size: 19px;
+          margin-left: 5px; }
+    .marketWrap .marketBody .row .col-lg-3 .arkaPlan .marketUrun:hover > img {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      transform: scale(1.2); }
+    .marketWrap .marketBody .row .col-lg-3 .arkaPlan .marketUrun:hover > .gizliArkaPlan {
+      transition: all .01s linear;
+      top: 0; }
+  .marketWrap .marketBody .row .col-lg-3 .marketAltBaslik h3 {
+    padding: 0;
+    font-size: 20px;
+    color: #212121 !important;
+    font-family: SansSerifBldFLF;
+    text-align: center; }
+  .marketWrap .marketBody .row .col-lg-3 .marketAltAciklama a {
+    font-family: SansSerifBldFLF;
+    text-align: center; }
+
+.oyunWrap {
+  width: 90%;
+  margin: 0 5% !important;
+  margin-bottom: 20px !important; }
+  .oyunWrap .oyunNav .anaBaslik a h1 {
+    color: #212121 !important;
+    font-family: SansSerifBldFLF;
+    text-transform: uppercase;
+    font-size: 36px; }
+  .oyunWrap .oyunNav .oyunKategori ul {
+    padding: 22px; }
+    .oyunWrap .oyunNav .oyunKategori ul li {
+      float: left;
+      margin-left: 10px; }
+      .oyunWrap .oyunNav .oyunKategori ul li a {
+        color: #212121;
+        font-family: SansSerifBldFLF;
+        font-size: 24px;
+        word-spacing: -3px; }
+        .oyunWrap .oyunNav .oyunKategori ul li a:hover {
+          color: #52b7cc; }
+        @media only screen and (max-width: 1128px) {
+          .oyunWrap .oyunNav .oyunKategori ul li a {
+            font-size: 23px; } }
+        @media only screen and (max-width: 1095px) {
+          .oyunWrap .oyunNav .oyunKategori ul li a {
+            font-size: 22px; } }
+        @media only screen and (max-width: 1060px) {
+          .oyunWrap .oyunNav .oyunKategori ul li a {
+            font-size: 21px; } }
+        @media only screen and (max-width: 1045px) {
+          .oyunWrap .oyunNav .oyunKategori ul li a {
+            font-size: 20px; } }
+      .oyunWrap .oyunNav .oyunKategori ul li:hover {
+        transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -webkit-transition: all .2s ease-in;
+        -ms-transition: all .2s ease-in;
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        -moz-transform: scale(1.01);
+        transform: scale(1.01);
+        -webkit-box-shadow: inset 0px -4px 0px 0px rgba(79, 181, 205, 0.75);
+        -moz-box-shadow: inset 0px -4px 0px 0px rgba(79, 181, 205, 0.75);
+        box-shadow: inset 0px -4px 0px 0px rgba(79, 181, 205, 0.75); }
+    @media only screen and (max-width: 990px) {
+      .oyunWrap .oyunNav .oyunKategori ul {
+        padding: 0; } }
+  @media only screen and (max-width: 990px) {
+    .oyunWrap .oyunNav .oyunKategori {
+      margin-bottom: 10px !important; } }
+  .oyunWrap .oyunNav .butonlar2 .devam2 {
+    padding: 22px; }
+    .oyunWrap .oyunNav .butonlar2 .devam2 a .button {
+      width: 80%;
+      color: #444;
+      font-size: 18px;
+      padding: 5px;
+      text-align: center;
+      background: #d1d1d1;
+      border-radius: 10px;
+      transition: all .5s ease-in-out;
+      cursor: pointer; }
+      .oyunWrap .oyunNav .butonlar2 .devam2 a .button:hover {
+        background: #4fb5cd; }
+      .oyunWrap .oyunNav .butonlar2 .devam2 a .button:active {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        transform: scale(1.05); }
+      @media only screen and (max-width: 960px) {
+        .oyunWrap .oyunNav .butonlar2 .devam2 a .button {
+          width: 100%; } }
+    @media only screen and (max-width: 990px) {
+      .oyunWrap .oyunNav .butonlar2 .devam2 {
+        padding: 0; } }
+  @media only screen and (max-width: 990px) {
+    .oyunWrap .oyunNav .butonlar2 {
+      margin-bottom: 10px !important; } }
+  .oyunWrap .oyunBody .row .col-lg-3 .arkaPlan {
+    position: relative;
+    height: 390px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%; }
+    .oyunWrap .oyunBody .row .col-lg-3 .arkaPlan .oyunUrun img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -webkit-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in; }
+    .oyunWrap .oyunBody .row .col-lg-3 .arkaPlan .oyunUrun .gizliArkaPlan {
+      transition: all .01s linear;
+      top: 100%;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+      overflow: hidden; }
+    .oyunWrap .oyunBody .row .col-lg-3 .arkaPlan .oyunUrun:hover > img {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      transform: scale(1.2); }
+    .oyunWrap .oyunBody .row .col-lg-3 .arkaPlan .oyunUrun:hover > .gizliArkaPlan {
+      transition: all .01s linear;
+      top: 0; }
+  .oyunWrap .oyunBody .row .col-lg-3 .oyunAltBaslik h3 {
+    padding: 0;
+    font-size: 20px;
+    color: #212121 !important;
+    font-family: SansSerifBldFLF;
+    text-align: center; }
+  .oyunWrap .oyunBody .row .col-lg-3 .oyunAltAciklama a {
+    font-family: SansSerifBldFLF;
+    text-align: center; }
+
+.onemli {
+  width: 90%;
+  margin: 0 5% !important;
+  padding-bottom: 20px; }
+  .onemli .imgWrap {
+    height: 235.02;
+    width: 100%; }
+    .onemli .imgWrap img {
+      width: 100%;
+      height: 100%; }
+
+.takvimWrap {
+  width: 100%;
+  margin: 0 8%;
+  padding-bottom: 20px; }
+  .takvimWrap .takvimNav .takvimBaslik {
+    width: 80%;
+    text-align: center; }
+    .takvimWrap .takvimNav .takvimBaslik h1 {
+      font-size: 45px;
+      color: #212121 !important;
+      font-family: SansSerifBldFLF; }
+  .takvimWrap .takvimNav .gunler span {
+    color: #212121 !important;
+    font-family: SansSerifBldFLF;
+    font-size: 20px; }
+  .takvimWrap .takvimNav .mehmetCol {
+    width: 12%;
+    float: left; }
+  .takvimWrap .takvimBody span {
+    position: absolute;
+    color: #101010;
+    font-size: 12px;
+    font-weight: 700; }
+  .takvimWrap .takvimBody img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer; }
+  .takvimWrap .takvimBody .mehmetCol {
+    border: 2px solid #212121;
+    border-collapse: collapse;
+    height: 130px;
+    width: 12%;
+    float: left;
+    background-color: #efefef; }
+    @media (min-width: 768px) {
+      .takvimWrap .takvimBody .mehmetCol .modal-dialog {
+        width: 60%;
+        margin: 3% auto; } }
+    .takvimWrap .takvimBody .mehmetCol .modal-dialog .modal-content {
+      /* & +  & { border-top: 0!important; } */
+      margin-top: 10%; }
+      .takvimWrap .takvimBody .mehmetCol .modal-dialog .modal-content .modal-header h4.modal-title {
+        color: #212121 !important;
+        font-family: SansSerifBldFLF;
+        text-transform: uppercase; }
+      .takvimWrap .takvimBody .mehmetCol .modal-dialog .modal-content .modal-body .cikti h4 {
+        color: #212121 !important;
+        font-family: SansSerifBldFLF;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 15px; }
+      .takvimWrap .takvimBody .mehmetCol .modal-dialog .modal-content .modal-body .embed-responsive-4by3 {
+        padding-bottom: 129%; }
+
+#map {
+  width: 100%;
+  height: 420px;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.info-content {
+  color: #606061; }
+
+.kategoriDetay .kategoriDetayAlt ul {
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: center;
+  padding: 0; }
+  .kategoriDetay .kategoriDetayAlt ul li {
+    display: block;
+    float: left;
+    position: relative;
+    right: 50%;
+    margin-right: 20px; }
+    .kategoriDetay .kategoriDetayAlt ul li img {
+      width: 45px; }
+    .kategoriDetay .kategoriDetayAlt ul li a {
+      font-size: 19px; }
+
+.sonEklenenAlan .eklenenResim {
+  margin-bottom: 10px;
+  overflow: hidden;
+  /*  &:hover{
+      box-shadow: 0 0 8px #777;
+          border: 1px solid #d4d4d4;
+  }*/ }
+  .sonEklenenAlan .eklenenResim .imgWrap {
+    overflow: hidden;
+    height: 364.28px;
+    width: 100%; }
+    .sonEklenenAlan .eklenenResim .imgWrap img {
+      width: 100%;
+      height: 100%;
+      transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -webkit-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in; }
+      .sonEklenenAlan .eklenenResim .imgWrap img:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2); }
+  .sonEklenenAlan .eklenenResim p {
+    height: 34px; }
+
+.oyunKategori .oyunKategoriAlan .oyunKategoriAdi h4 {
+  font-size: 25px; }
+.oyunKategori .oyunKategoriAlan .oyunAdi ul {
+  padding: 0; }
+
+.satisAlan .urunSatis .satisResim a .imgWrap {
+  width: 100%;
+  height: 354px; }
+  .satisAlan .urunSatis .satisResim a .imgWrap img {
+    width: 100%;
+    height: 100%; }
+.satisAlan .urunSatis .satisAlt {
+  height: 200px;
+  margin-bottom: 5px; }
+  .satisAlan .urunSatis .satisAlt .urunAdi h3 {
+    margin: 2px; }
+  .satisAlan .urunSatis .satisAlt .urunOzellik ul {
+    padding: 5px 25px; }
+    .satisAlan .urunSatis .satisAlt .urunOzellik ul li {
+      list-style-type: circle !important; }
+
+.urunDetayResimWrap .urunDetayResim .cizgi {
+  width: 100%;
+  height: 2px;
+  background: #ccc;
+  margin-bottom: 10px; }
+  .urunDetayResimWrap .urunDetayResim .cizgi span {
+    display: block;
+    width: 180px;
+    background-color: #52b7cc;
+    height: 2px; }
+.urunDetayResimWrap .urunDetayResim .urunBuyukResim {
+  height: 305px;
+  width: 540px;
+  margin: 12px 0; }
+  .urunDetayResimWrap .urunDetayResim .urunBuyukResim img {
+    width: 100%;
+    height: 100%; }
+  @media only screen and (max-width: 1199px) {
+    .urunDetayResimWrap .urunDetayResim .urunBuyukResim {
+      width: 100% !important; } }
+.urunDetayResimWrap .urunDetayResim hr {
+  border: 1px solid #b1b1b1 !important; }
+.urunDetayResimWrap .urunDetayResim .kucukResimlerWrap .urunKucukResimler ul {
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: center;
+  padding: 0; }
+  .urunDetayResimWrap .urunDetayResim .kucukResimlerWrap .urunKucukResimler ul li {
+    display: block;
+    float: left;
+    position: relative;
+    right: 50%; }
+    .urunDetayResimWrap .urunDetayResim .kucukResimlerWrap .urunKucukResimler ul li:not(:first-child) {
+      margin-left: 10px; }
+    @media only screen and (max-width: 560px) {
+      .urunDetayResimWrap .urunDetayResim .kucukResimlerWrap .urunKucukResimler ul li {
+        margin-left: 2px !important;
+        margin-top: 10px; } }
+    .urunDetayResimWrap .urunDetayResim .kucukResimlerWrap .urunKucukResimler ul li a img {
+      width: 70px;
+      height: 70px; }
+
+.urunAciklamasi .urunAdi h1 {
+  font-size: 28px;
+  margin: 10px 0px; }
+.urunAciklamasi .urunOzelligi ul {
+  padding: 8px; }
+  .urunAciklamasi .urunOzelligi ul li {
+    list-style-type: circle; }
+
+.urunPaketi .paket h5 {
+  font-size: 28px; }
+.urunPaketi .paketIcerigi ul {
+  padding: 8px; }
+  .urunPaketi .paketIcerigi ul li {
+    list-style-type: circle; }
+
+.video .urunVideoAlan .cizgi {
+  width: 100%;
+  height: 2px;
+  background: #ccc;
+  margin-bottom: 10px; }
+  .video .urunVideoAlan .cizgi span {
+    display: block;
+    width: 180px;
+    background-color: #52b7cc;
+    height: 2px; }
+.video .urunVideoAlan .urunVideo {
+  width: 100%; }
+
+footer {
+  background-color: black; }
+  footer .Baslik a h1 {
+    color: #c1c1c1;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  footer ul.kategori {
+    padding: 0; }
+    footer ul.kategori li a {
+      color: white;
+      font-size: 19px;
+      margin-bottom: 5px; }
+  footer ul.adres {
+    padding: 0; }
+    footer ul.adres li address {
+      color: white;
+      font-size: 17px;
+      margin-bottom: 5px; }
+    footer ul.adres li a {
+      color: white;
+      font-size: 17px;
+      margin-bottom: 5px; }
+  footer ul.sosyal {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer ul.sosyal li {
+      float: left; }
+      footer ul.sosyal li:not(:first-child) {
+        margin-left: 10px; }
+      footer ul.sosyal li i {
+        color: white;
+        font-size: 30px;
+        transition: color 0.5s ease; }
+        footer ul.sosyal li i.facebook:hover {
+          color: #3b5998; }
+        footer ul.sosyal li i.twitter:hover {
+          color: #55acee; }
+        footer ul.sosyal li i.youtube:hover {
+          color: #bb0000; }
+        footer ul.sosyal li i.google:hover {
+          color: #dd4b39; }
+  footer .hakkimizda p {
+    color: white;
+    font-weight: 500;
+    font-size: 15px; }
+
+.iletisim .iletisimAdres {
+  margin-bottom: 10px; }
+  .iletisim .iletisimAdres address {
+    margin-bottom: 10px !important; }
+.iletisim button {
+  margin-bottom: 10px;
+  float: right;
+  outline: none; }
+
+/*
+.satisAlan{
+    
+    .satisBaslik{
+        h3{
+        } 
+    }
+    .satisResim{
+        -webkit-box-shadow: -4px 3px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -4px 3px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: -4px 3px 5px 0px rgba(0,0,0,0.75);
+        padding: 10px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        .imgWrap{
+           overflow:hidden;
+        img{
+        width: 100%;
+        transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        -ms-transition: all .3s ease-in;
+        height: 250px;
+        &:hover{
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);  
+            -moz-transform: scale(1.2);
+            transform: scale(1.2);
+          }
+         }
+        } 
+        p{
+            height:40px;
+        }
+        h6{
+            
+        }
+        ul{
+            li{
+                list-style-tyope: circle!important;
+            }
+        }
+    }
+}
+*/
+
+/*# sourceMappingURL=style.css.map */
